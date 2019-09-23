@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mine Sweeper</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" type="image/png" href="img/icon.png"/>
+
+</head>
+<body onload="initGame()">
+    <h1>Mine Sweeper </h1>
+ 
+        <button class="game-buttons" onclick="initGame()">NEW GAME</button>
+        <button class="game-buttons" onclick="gameOver('stop')">STOP</button>
+
+<p class = "time-counter"> 0 </p>
+
+<form action="">
+  <input type="radio" id="beginner" name="level" value="beginner" checked> Beginner<br>
+  <input type="radio" id="medium" name="level" value="medium"> Medium<br>
+  <input type="radio" id="expert" name="level" value="expert"> Expert
+</form>
+  
+  <hr/> 
+    <table oncontextmenu="return false;"; border="1" cellpadding="10px">
+        <tbody id="board">
+           
+        </tbody>
+    </table>
+<hr/>
+<p class = "counter"> </p>
+
+<p class = "result"> </p>
+
+<p class = "shown-cells-counter"> </p>
+
+<p class = "marked-cells-counter"> </p>
+
+
+
+
+<script src="js/utils.js"></script>    
+<script src="js/main.js"></script>    
+<!--<script src="js/test.js"></script>    -->
+</body>
+</html>

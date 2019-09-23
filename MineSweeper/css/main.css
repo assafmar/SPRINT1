@@ -1,0 +1,52 @@
+
+.game-buttons{
+    background: blue;
+    border-radius: 4px;
+    text-align: center;
+    height: 60px;
+    width: 140px;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    border: lightblue;
+    display: inline-block;
+}
+
+.time-counter{
+  background: green;
+    border-radius: 4px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    width: 100px;
+    margin: 20px;
+    color: white;
+    border: black;
+    display: inline-block;
+}
+
+body {
+    background-color: lightblue;
+}
+
+td {
+    width: 20px;
+    height:20px;
+    text-align:center;
+    color: darkgray;
+    background-color: darkgray;
+}
+
+.shown{
+    color: black;
+    background-color: blue;
+}
+
+.marked{
+    color: black;
+    background-color: green;
+}
+
+.bomb-touched{
+    background-color: red;
+}
